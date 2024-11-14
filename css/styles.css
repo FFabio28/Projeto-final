@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    background: hsl(0, 0%, 8%);
+  }
+  
+  #perfil {
+    margin: 5rem auto;
+    width: 384px;
+    height: 620px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  
+  .foto img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 2rem;
+  }
+  
+  .dados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .nome {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+  }
+  
+  .cidade {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+  
+  .mensagem {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-top: 1.5rem;
+  }
+  
+  .container {
+    margin-top: 1.5rem;
+  }
+  
+  .opcoes {
+    list-style-type: none;
+    text-align: center;
+    width: 304px;
+    height: 45px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .git, .front, .link, .tt, .insta {
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    width: 304px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.2s ease-in;
+  }
+  
+  .git:hover, .front:hover, .link:hover, .tt:hover, .insta:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  width: 100%;
+}
+
+
